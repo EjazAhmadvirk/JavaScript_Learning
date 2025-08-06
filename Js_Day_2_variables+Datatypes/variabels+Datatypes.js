@@ -4,7 +4,7 @@
 let age = 20;
 
 // name is string Datatype
-let name = "John Doe";
+let name = "Ejaz Ahmad";
 
 // isStudent is boolean Datatype
 let isStudent = true;
