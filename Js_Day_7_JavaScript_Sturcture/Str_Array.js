@@ -4,6 +4,18 @@ fruits[0] = "grape";     // Update
 console.log(fruits);     // ["grape", "banana", "mango", "orange"]
 
 
+fruits.push("orange");  // Add
+console.log(fruits);
+fruits.pop();           // Remove
+console.log(fruits);
+fruits.shift();         // Remove
+console.log(fruits);
+fruits.unshift("grape"); // Add
+console.log(fruits);
+fruits.splice(1, 2);    // Remove
+console.log(fruits);
+fruits.slice(1, 3);     // Remove
+fruits.concat(["pineapple", "watermelon"]); // Add
 /*
 These are the properties of the array:
 1. length
@@ -41,17 +53,4 @@ fruits.concat(["pineapple", "watermelon"]); // Add
 
 
 
-*/
-
-fruits.push("orange");  // Add
-console.log(fruits);
-fruits.pop();           // Remove
-console.log(fruits);
-fruits.shift();         // Remove
-console.log(fruits);
-fruits.unshift("grape"); // Add
-console.log(fruits);
-fruits.splice(1, 2);    // Remove
-console.log(fruits);
-fruits.slice(1, 3);     // Remove
-fruits.concat(["pineapple", "watermelon"]); // Add
+*

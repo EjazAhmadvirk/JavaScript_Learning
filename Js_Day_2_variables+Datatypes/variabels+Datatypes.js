@@ -6,6 +6,12 @@ let age = 20;
 // name is string Datatype
 let name = "Ejaz Ahmad";
 
+console.log(name)
+
+name = 15;
+
+console.log(name)
+
 // isStudent is boolean Datatype
 let isStudent = true;
 
